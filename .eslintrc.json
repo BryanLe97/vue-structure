@@ -22,6 +22,6 @@
     ],
     "rules": {
         "semi-spacing": ["error", {"before": false, "after": true}],
-        "semi": ["error", "always"]
+        "semi": ["error", "never"]
     }
 }
