@@ -8,6 +8,7 @@
     "build": "vue-tsc && vite build",
     "lint": "eslint --ext js,ts,tsx src",
     "format": "prettier --write",
+    "pre-commit": "pnpm lint-staged --allow-empty",
     "preview": "vite preview",
     "prepare": "husky install"
   },
