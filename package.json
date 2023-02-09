@@ -30,8 +30,8 @@
   },
   "lint-staged": {
     "*.{ts, vue}": [
-      "pnpm run lint",
-      "pnpm run format"
+      "npm run lint",
+      "npm run format"
     ]
   }
 }
